@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1617956385348-9f609dcc84cd?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDk3fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    
+}
+
+.navbar {
+    background-color: yellow;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    
+    
+}
+
+.navbar a {
+    padding: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+.navbar a:hover{
+    background: blue;
+}
+
+
+img {
+    width: 150px;
+    height: 100px;
+    padding-bottom: 30px;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 300px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    
+    padding: 15px 20px;
+    
+}
+
+.btn-1 {
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: yellow;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.btn-2 {
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: yellow;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .container {
+        width: 50%;
+    }
+} 
+
+    
